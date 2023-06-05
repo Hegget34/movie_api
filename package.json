@@ -1,0 +1,19 @@
+{
+  "name": "movie_api",
+  "version": "1.0.0",
+  "description": "movie_api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install --save express"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install --save express"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
