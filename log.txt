@@ -10,3 +10,5 @@ Timestamp: Mon Jun 05 2023 09:12:14 GMT-0500 (Central Daylight Time)
 URL: /favicon.ico
 Timestamp: Mon Jun 05 2023 09:12:14 GMT-0500 (Central Daylight Time)
 
+::1 - - [05/Jun/2023:18:44:52 +0000] "GET /index HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0"
+::1 - - [05/Jun/2023:18:44:57 +0000] "GET /documentation HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0"
