@@ -3,6 +3,23 @@
 
 <head>
     <title>Movie API Documentation</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+        
+            th,
+            td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+        
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
 </head>
 
 <body>
@@ -10,5 +27,74 @@
     <p>Welcome to the Movie API documentation. 
         This API allows developers to access and retrieve information about
         movies.</p>
-</body>
-</html>
+
+    <h2>Movies</h2>
+    <table>
+        <tr>
+            <th>Request</th>
+            <th>URL</th>
+            <th>Response</th>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/movies</td>
+            <td>Retrieve a list of all movies</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/movies/:title</td>
+            <td>Retrieve information about a specific movie</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/movies</td>
+            <td>Create a new movie</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>/movies/:title</td>
+            <td>Update information for a specific movie</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/movies/:title</td>
+            <td>Delete a specific movie</td>
+        </tr>
+    </table>
+
+    <h2>Users</h2>
+    <table>
+        <tr>
+            <th>Request</th>
+            <th>URL</th>
+            <th>Response</th>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/users</td>
+            <td>Create a new user</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/users</td>
+            <td>Retrieve a list of all users</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/users/:users</td>
+            <td>Retrieve information about a specific user</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>/users/:users</td>
+            <td>Update information for a specific user</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/users/:users</td>
+            <td>Delete a specific user</td>
+        </tr>
+    </table>
+    </body>
+    
+    </html>
