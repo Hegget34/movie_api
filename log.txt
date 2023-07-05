@@ -44,3 +44,8 @@ Timestamp: Mon Jun 05 2023 09:12:14 GMT-0500 (Central Daylight Time)
 ::1 - - [06/Jun/2023:18:00:07 +0000] "GET /users/2 HTTP/1.1" 404 146 "-" "PostmanRuntime/7.32.2"
 ::1 - - [06/Jun/2023:18:00:21 +0000] "GET /users/2 HTTP/1.1" 404 146 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0"
 ::1 - - [06/Jun/2023:18:13:42 +0000] "GET /documentation HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0"
+::1 - - [05/Jul/2023:16:43:26 +0000] "GET /genre/action HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.3"
+::1 - - [05/Jul/2023:16:43:38 +0000] "GET /genre/Action HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.3"
+::1 - - [05/Jul/2023:18:44:33 +0000] "GET /movies/Inception/Christopher%20Nolan HTTP/1.1" 404 175 "-" "PostmanRuntime/7.32.3"
+::1 - - [05/Jul/2023:18:44:39 +0000] "GET /movies/Inception/Christopher%Nolan HTTP/1.1" 404 175 "-" "PostmanRuntime/7.32.3"
+::1 - - [05/Jul/2023:18:44:49 +0000] "GET /movies/Inception/Christopher%25Nolan HTTP/1.1" 404 175 "-" "PostmanRuntime/7.32.3"

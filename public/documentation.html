@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Movie API Documentation</title>
+    <title>MyFlix App</title>
         <style>
             table {
                 width: 100%;
@@ -12,7 +12,7 @@
             th,
             td {
                 padding: 8px;
-                text-align: left;
+                text-align: center;
                 border-bottom: 1px solid #ddd;
             }
         
@@ -23,10 +23,10 @@
 </head>
 
 <body>
-    <h1>Movie API Documentation</h1>
+    <h1>MyFlix App</h1>
     <p>Welcome to the Movie API documentation. 
         This API allows developers to access and retrieve information about
-        movies.</p>
+        movies, directors, and even genres.</p>
 
     <h2>Movies</h2>
     <table>
@@ -46,10 +46,16 @@
             <td>Retrieve information about a specific movie</td>
         </tr>
         <tr>
-            <td>POST</td>
-            <td>/movies</td>
-            <td>Create a new movie</td>
+            <td>GET</td>
+            <td>/movies/genre/:genre</td>
+            <td>Retrieve a list of movies by specific genres</td>
         </tr>
+        <tr>
+            <td>GET</td>
+            <td>/directors/:name</td>
+            <td>Retrieve information about a specific director</td>
+        </tr>
+        <tr>
         <tr>
             <td>PUT</td>
             <td>/movies/:title</td>
@@ -70,11 +76,6 @@
             <th>Response</th>
         </tr>
         <tr>
-            <td>POST</td>
-            <td>/users</td>
-            <td>Create a new user</td>
-        </tr>
-        <tr>
             <td>GET</td>
             <td>/users</td>
             <td>Retrieve a list of all users</td>
@@ -83,6 +84,16 @@
             <td>GET</td>
             <td>/users/:users</td>
             <td>Retrieve information about a specific user</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/users</td>
+            <td>Create a new user</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/users/:username/movies/:MovieID</td>
+            <td>Add a movie to users favorites</td>
         </tr>
         <tr>
             <td>PUT</td>
